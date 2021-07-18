@@ -18,6 +18,19 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
   
+  <distributionManagement>
+<repository>
+  <id>Moti_project</id>
+  <url>https://pkgs.dev.azure.com/rubinshtein1/c3962256-48b3-45c8-9dfc-82b2b9673fbb/_packaging/Moti_project/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+    </distributionManagement>
+  
   <repositories>
     <repository>
   <id>Moti_project</id>
